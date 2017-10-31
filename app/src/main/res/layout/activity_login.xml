@@ -6,7 +6,7 @@
     android:layout_margin="@dimen/default_margin"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context="com.example.kidusmt.multichatapp.LoginActivity">
+    tools:context="com.example.kidusmt.multichatapp.activity.LoginActivity">
 
     <ImageView
         android:id="@+id/login_logo"
@@ -15,22 +15,20 @@
         android:src="@drawable/logo" />
 
     <EditText
-        android:id="@+id/login_username"
+        android:id="@+id/login_phone_number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="username" />
+        android:hint="phone number"
+        android:textAlignment="center" />
 
-    <EditText
-        android:id="@+id/login_password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="password" />
 
     <Button
-        android:id="@+id/btn_login"
+        android:id="@+id/btn_login_next"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login" />
+        android:background="@color/colorPrimary"
+        android:text="next"
+        android:textColor="@color/colorIcons" />
 
     <TextView
         android:layout_width="match_parent"
@@ -39,6 +37,46 @@
         android:textAlignment="center"
         android:textColor="#000"
         android:textSize="@dimen/mid_text_size" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_login_fb"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/facebook_login" />
+
+        <ImageButton
+            android:id="@+id/btn_login_google"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/google_login" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account?"
+        android:textAlignment="center"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/btn_login_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@color/colorPrimary"
+        android:text="Register"
+        android:textColor="@color/colorIcons" />
 
 
 </LinearLayout>
