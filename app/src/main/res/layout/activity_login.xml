@@ -32,5 +32,13 @@
         android:layout_height="wrap_content"
         android:text="Login" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="or"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="@dimen/mid_text_size" />
+
 
 </LinearLayout>
