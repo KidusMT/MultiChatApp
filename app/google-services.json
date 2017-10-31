@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "652937027850",
+    "firebase_url": "https://multichatapp-c5f20.firebaseio.com",
+    "project_id": "multichatapp-c5f20",
+    "storage_bucket": "multichatapp-c5f20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652937027850:android:a5f6f57c54834f43",
+        "android_client_info": {
+          "package_name": "com.example.kidusmt.multichatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652937027850-jdol18qqjot8v7vbdkjqji1ju160jt7g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kidusmt.multichatapp",
+            "certificate_hash": "dc2fb86895cf7f50f4764d7389a6fd2da476ab37"
+          }
+        },
+        {
+          "client_id": "652937027850-khjk4pmi34tcduk35d8kddcghqv493af.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIChFCOvKV0a-sYEGAhqvnVlHj8Gp_nAc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "652937027850-khjk4pmi34tcduk35d8kddcghqv493af.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
